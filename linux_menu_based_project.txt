@@ -33,11 +33,11 @@ def send_email():
     os.system(f'echo "{body}" | mail -s "{subject}" {recipient}')
 
 def send_sms():
-    account_sid = 'ACbf74d130a476e0b28e50938810f2838e'
-    auth_token = '998271b07af10decd12844b4e0e07a4e'
+    account_sid = 'Enter your accound_sid'
+    auth_token = 'Enter your auth_token'
     client = Client(account_sid, auth_token)
     to = input("Enter the recipient's number (with country code): ")
-    from_ = '+14157893575'
+    from_ = 'enter twilio number'
     body = input("Enter the message: ")
     client.messages.create(to=to, from_=from_, body=body)
 
@@ -50,7 +50,7 @@ def post_to_social_media():
     elif platform == 'instagram':
         # Add your Instagram bot code here
         pass
-    elif platform == 'facebook':
+    elif platform == 'Facebook':
         # Add your Facebook bot code here
         pass
     elif platform == 'discord':
