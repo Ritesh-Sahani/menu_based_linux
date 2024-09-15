@@ -1,0 +1,11 @@
+pywhatkit
+twilio
+psutil
+requests
+art
+pyttsx3
+googlesearch-python
+python-telegram-bot
+instabot
+facebook-sdk
+discord.py
