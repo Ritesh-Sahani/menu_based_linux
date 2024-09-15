@@ -24,4 +24,5 @@ This project is a menu-driven Python script that provides various automation tas
 
 Install the necessary packages using:
 ```bash
-pip install pywhatkit twilio psutil requests pyttsx3 art googlesearch-python
+pip install pywhatkit twilio psutil requests pyttsx3 art googlesearch-python python-telegram-bot instabot facebook-sdk discord.py
+
